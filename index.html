@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>HW3 Ryhan Mortuza</title>
+
+        <!-- Sources -->
+        <link href="css/style.css" rel="stylesheet"> 
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <script src="js/script.js"></script>
+
+    </head>
+
+    <body onload="clearPage()">
+
+        <div class="Intro">
+            <h1>Multiplication Table:</h1>
+            <p> A table that visualizes dynamic multiplication via table </p>
+        </div>
+
+
+        <form id="frm" action="javascript:void(0)" onsubmit="return formCheck();">
+
+            <div id="Radio">
+                <input type="radio" name="Control"  value="Boxes" onclick="createInput(value)">Boxes
+            </div> <!-- drop down input after selecting boxes -->
+
+
+            <div id="Boxes"></div>
+            <div id="userInfo"></div>
+
+        </form>
+
+
+        <div id="table"></div>
+
+        <footer>
+            by Ryhan Mortuza:  <a href="mailto:Ryhan_Mortuza@student.uml.edu"> Ryhan_Mortuza@student.uml.edu</a>
+        </footer> 
+
+    </body>
+</html>
